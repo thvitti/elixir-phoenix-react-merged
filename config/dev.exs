@@ -2,10 +2,10 @@ use Mix.Config
 
 # Configure your database
 config :youtubeflix, Youtubeflix.Repo,
-  username: System.get_env("BD_USER"),
-  password: System.get_env("BD_PASS"),
+  username: System.get_env("DB_USER"),
+  password: System.get_env("DB_PASS"),
   database: "youtubeflix_dev",
-  hostname: System.get_env("BD_HOST"),
+  hostname: System.get_env("DB_HOST"),
   show_sensitive_data_on_connection_error: true,
   pool_size: 10
 
