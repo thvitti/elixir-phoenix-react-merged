@@ -28,7 +28,7 @@ defmodule YoutubeflixWeb.Endpoint do
   plug Plug.Static,
     at: "/",
     #from: :youtubeflix,
-    from: "priv/youtubeflix_styled/build/",
+    from: "frontend/youtubeflix_styled/build/",
     gzip: false
     #only: ~w(css fonts images js favicon.ico robots.txt )
 

@@ -1,0 +1,41 @@
+
+/* reset css begin */
+
+/* box-sizing vai manter o tamanho total definido(incluindo margin e padding) */
+* {
+  box-sizing: border-box;
+  font-family: 'Roboto', sans-serif;
+}
+
+/* declaracao de variaveis  */
+:root {
+  --primary: #2A7AE4;
+  --black: #000000;
+  --blackLighter: #9E9E9E;
+  --grayDark: #141414;
+  --grayLight: #F5F5F5;
+  --grayMedium: #e5e5e5; 
+  --white: #FFFFFF;
+  --frontEnd: #6BD1FF;
+  --backEnd: #00C86F;
+}
+
+html,
+body {
+  margin: 0;
+  padding: 0;
+}
+
+/* nao pegar a cor do pai por default */
+a {
+  color: inherit;
+} 
+
+#root {
+  min-height: calc(100vh - var(--bodyPaddingTop));
+  background-color: blueviolet;
+  display: flex;
+  flex-direction: column;
+}
+
+/* reset css end */
